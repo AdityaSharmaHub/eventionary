@@ -1,4 +1,3 @@
-// components/FilterBar.tsx
 type FilterBarProps = {
   locations: string[];
   selected: string;

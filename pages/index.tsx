@@ -36,12 +36,16 @@ export default function Home({ events }: HomeProps) {
   return (
     <div className={`${poppins.className}`}>
       <Head>
-        <title>Events Explorer</title>
+        <title>Eventionary - Your Events Explorer</title>
         <meta name="description" content="Browse upcoming events by location" />
       </Head>
 
-      <main className="max-w-4xl mx-auto p-4">
-        <h1 className="text-3xl font-bold mb-4">Events Explorer</h1>
+      <main className="max-w-4xl mx-auto p-8">
+        <div className="mb-10">
+          <h1 className="text-3xl font-bold">Eventionary</h1>
+        </div>
+
+        <h2 className="text-2xl font-semibold mb-4">Explore Events</h2>
 
         <FilterBar
           locations={locations}

@@ -1,55 +1,55 @@
 [
   {
-    "id": "event-1",
+    "id": "1",
     "title": "Next.js Conference",
     "date": "2025-08-10",
     "location": "Delhi",
     "description": "Join developers worldwide to learn Next.js."
   },
   {
-    "id": "event-2",
+    "id": "2",
     "title": "React Summit",
     "date": "2025-09-15",
     "location": "Mumbai",
     "description": "The biggest React event in India, featuring workshops and keynotes."
   },
   {
-    "id": "event-3",
+    "id": "3",
     "title": "Global AI Expo",
     "date": "2025-10-22",
     "location": "Bengaluru",
     "description": "Explore the latest in Artificial Intelligence, machine learning, and robotics."
   },
   {
-    "id": "event-4",
+    "id": "4",
     "title": "Sustainable Living Festival",
     "date": "2025-11-05",
     "location": "Pune",
     "description": "A community festival promoting eco-friendly practices and sustainable products."
   },
   {
-    "id": "event-5",
+    "id": "5",
     "title": "Indie Music Showcase",
     "date": "2025-12-01",
     "location": "Goa",
     "description": "Discover emerging independent artists across various genres by the beach."
   },
   {
-    "id": "event-6",
+    "id": "6",
     "title": "Food Truck Fiesta",
     "date": "2026-01-18",
     "location": "Mumbai",
     "description": "Savor diverse cuisines from the best food trucks in the city."
   },
   {
-    "id": "event-7",
+    "id": "7",
     "title": "Digital Marketing Masterclass",
     "date": "2026-02-28",
     "location": "Hyderabad",
     "description": "Intensive workshop on SEO, social media, and content marketing strategies."
   },
   {
-    "id": "event-8",
+    "id": "8",
     "title": "Heritage Walk: Old Delhi",
     "date": "2026-03-10",
     "location": "Delhi",

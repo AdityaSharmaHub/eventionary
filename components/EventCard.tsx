@@ -1,4 +1,3 @@
-// components/EventCard.tsx
 import { Event } from "@/pages/index";
 import Link from "next/link";
 
