@@ -5,6 +5,7 @@ import { useState } from "react";
 import EventList from "@/components/EventList";
 import FilterBar from "@/components/FilterBar";
 import eventsData from "@/data/events.json";
+import Link from "next/link";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -59,6 +60,12 @@ export default function Home({ events }: HomeProps) {
         </div>
         <EventList events={filteredEvents} />
       </main>
+      <footer className="w-full py-4 bg-white/80 border-t border-gray-100 text-center text-sm text-gray-500 mt-8 flex items-center justify-center gap-1">
+        <span>Made with</span>
+        <span className="text-red-500" aria-label="love">♥</span>
+        <span>by</span> 
+        <Link href="https://adityacodes.com" className="underline" target="_blank">Aditya Sharma</Link>
+      </footer>
     </div>
   );
 }
