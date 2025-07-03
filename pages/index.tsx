@@ -34,25 +34,29 @@ export default function Home({ events }: HomeProps) {
   const locations = Array.from(new Set(events.map(e => e.location)));
 
   return (
-    <div className={`${poppins.className}`}>
+    <div className={`${poppins.className} min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50`}>
       <Head>
         <title>Eventionary - Your Events Explorer</title>
         <meta name="description" content="Browse upcoming events by location" />
       </Head>
 
-      <main className="max-w-4xl mx-auto p-8">
-        <div className="mb-10">
-          <h1 className="text-3xl font-bold">Eventionary</h1>
+      <header className="w-full py-12 bg-gradient-to-r from-blue-600 to-green-400 text-white shadow-lg rounded-b-3xl">
+        <div className="max-w-4xl mx-auto px-8 flex flex-col items-center">
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-3 drop-shadow-lg">Eventionary</h1>
+          <p className="text-lg sm:text-xl font-medium mb-6 opacity-90">Discover, filter, and explore the best events happening around you.</p>
+          <a href="#events-list" className="inline-block px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-blue-50 transition">Browse Events ↓</a>
         </div>
+      </header>
 
-        <h2 className="text-2xl font-semibold mb-4">Explore Events</h2>
-
-        <FilterBar
-          locations={locations}
-          selected={locationFilter}
-          onChange={setLocationFilter}
-        />
-
+      <main className="max-w-7xl mx-auto p-8">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 mt-4">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4 md:mb-0" id="events-list">Explore Events</h2>
+          <FilterBar
+            locations={locations}
+            selected={locationFilter}
+            onChange={setLocationFilter}
+          />
+        </div>
         <EventList events={filteredEvents} />
       </main>
     </div>
