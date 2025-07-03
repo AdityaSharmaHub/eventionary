@@ -26,7 +26,6 @@ function SkeletonCard() {
 
 export default function EventList({ events }: EventListProps) {
   if (!events) {
-    // Show 4 skeletons while loading
     return (
       <div className="grid sm:grid-cols-2 gap-6 md:gap-8 animate-fadein">
         {Array.from({ length: 4 }).map((_, i) => (
