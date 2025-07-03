@@ -3,56 +3,96 @@
     "id": "1",
     "title": "Next.js Conference",
     "date": "2025-08-10",
+    "time": "10:00 AM – 5:00 PM",
     "location": "Delhi",
-    "description": "Join developers worldwide to learn Next.js."
+    "venue": "Pragati Maidan, Delhi",
+    "description": "Join developers worldwide to learn Next.js.",
+    "detailedDescription": "The Next.js Conference brings together developers, designers, and industry leaders from around the globe to explore the latest advancements in Next.js and the React ecosystem. Enjoy hands-on workshops, inspiring keynotes, and networking opportunities. Whether you're a beginner or an expert, you'll leave with new skills and connections.",
+    "speakers": ["Tim Neutkens", "Guillermo Rauch"],
+    "registered": 320
   },
   {
     "id": "2",
     "title": "React Summit",
     "date": "2025-09-15",
+    "time": "9:00 AM – 6:00 PM",
     "location": "Mumbai",
-    "description": "The biggest React event in India, featuring workshops and keynotes."
+    "venue": "NESCO Center, Mumbai",
+    "description": "The biggest React event in India, featuring workshops and keynotes.",
+    "detailedDescription": "React Summit is India's premier React conference, featuring a packed agenda of workshops, expert talks, and panel discussions. Meet the creators and maintainers of popular React libraries, participate in hands-on sessions, and connect with the vibrant React community.",
+    "speakers": ["Dan Abramov", "Sunil Pai"],
+    "registered": 410
   },
   {
     "id": "3",
     "title": "Global AI Expo",
     "date": "2025-10-22",
+    "time": "11:00 AM – 7:00 PM",
     "location": "Bengaluru",
-    "description": "Explore the latest in Artificial Intelligence, machine learning, and robotics."
+    "venue": "Bangalore International Exhibition Centre",
+    "description": "Explore the latest in Artificial Intelligence, machine learning, and robotics.",
+    "detailedDescription": "The Global AI Expo is a must-attend event for anyone interested in artificial intelligence, machine learning, and robotics. Experience live demos, attend technical sessions, and discover how AI is transforming industries from healthcare to finance.",
+    "speakers": ["Andrew Ng", "Fei-Fei Li"],
+    "registered": 275
   },
   {
     "id": "4",
     "title": "Sustainable Living Festival",
     "date": "2025-11-05",
+    "time": "8:00 AM – 8:00 PM",
     "location": "Pune",
-    "description": "A community festival promoting eco-friendly practices and sustainable products."
+    "venue": "Koregaon Park, Pune",
+    "description": "A community festival promoting eco-friendly practices and sustainable products.",
+    "detailedDescription": "Join the Sustainable Living Festival to learn about eco-friendly products, renewable energy, and sustainable living practices. Enjoy workshops, exhibitions, and local food stalls while supporting a greener future.",
+    "speakers": ["Vandana Shiva", "Sunita Narain"],
+    "registered": 180
   },
   {
     "id": "5",
     "title": "Indie Music Showcase",
     "date": "2025-12-01",
+    "time": "5:00 PM – 11:00 PM",
     "location": "Goa",
-    "description": "Discover emerging independent artists across various genres by the beach."
+    "venue": "Baga Beach, Goa",
+    "description": "Discover emerging independent artists across various genres by the beach.",
+    "detailedDescription": "The Indie Music Showcase is a celebration of independent music, featuring live performances from up-and-coming artists across genres. Enjoy the vibrant atmosphere by the beach, connect with fellow music lovers, and discover your new favorite band.",
+    "speakers": ["Prateek Kuhad", "Ritviz"],
+    "registered": 220
   },
   {
     "id": "6",
     "title": "Food Truck Fiesta",
     "date": "2026-01-18",
+    "time": "12:00 PM – 10:00 PM",
     "location": "Mumbai",
-    "description": "Savor diverse cuisines from the best food trucks in the city."
+    "venue": "Jio World Garden, Mumbai",
+    "description": "Savor diverse cuisines from the best food trucks in the city.",
+    "detailedDescription": "Food Truck Fiesta brings together the city's best food trucks for a day of culinary adventure. Sample a wide variety of cuisines, enjoy live music, and participate in fun food challenges. Perfect for foodies and families alike!",
+    "speakers": ["Ranveer Brar", "Pooja Dhingra"],
+    "registered": 350
   },
   {
     "id": "7",
     "title": "Digital Marketing Masterclass",
     "date": "2026-02-28",
+    "time": "10:00 AM – 4:00 PM",
     "location": "Hyderabad",
-    "description": "Intensive workshop on SEO, social media, and content marketing strategies."
+    "venue": "HITEX Exhibition Center, Hyderabad",
+    "description": "Intensive workshop on SEO, social media, and content marketing strategies.",
+    "detailedDescription": "This masterclass is designed for marketers and business owners looking to upskill in digital marketing. Learn the latest strategies in SEO, social media, and content marketing from industry experts. Includes hands-on exercises and real-world case studies.",
+    "speakers": ["Neil Patel", "Sorav Jain"],
+    "registered": 145
   },
   {
     "id": "8",
     "title": "Heritage Walk: Old Delhi",
     "date": "2026-03-10",
+    "time": "7:00 AM – 12:00 PM",
     "location": "Delhi",
-    "description": "A guided tour exploring the historical lanes and monuments of Old Delhi."
+    "venue": "Red Fort, Old Delhi",
+    "description": "A guided tour exploring the historical lanes and monuments of Old Delhi.",
+    "detailedDescription": "Experience the rich history of Old Delhi with a guided heritage walk. Explore ancient monuments, bustling markets, and hidden gems while learning about the city's fascinating past from expert guides.",
+    "speakers": ["Local Historian", "Archaeologist"],
+    "registered": 90
   }
 ]

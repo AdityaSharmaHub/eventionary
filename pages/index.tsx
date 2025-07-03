@@ -17,8 +17,13 @@ export type Event = {
   id: string;
   title: string;
   date: string;
+  time: string;
   location: string;
+  venue: string;
   description: string;
+  detailedDescription: string;
+  speakers: string[];
+  registered: number;
 };
 
 type HomeProps = {
